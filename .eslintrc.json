@@ -24,6 +24,11 @@
       "prettier"
   ],
   "rules": {
+    "no-nested-ternary": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react/require-default-props": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/prop-types": "off",
     "import/prefer-default-export": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
